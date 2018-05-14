@@ -5,7 +5,7 @@ randomly placed.  The player is nearly guaranteed to start in a safe area.
 
 Epic mode is forced unless you use practice mode.
 
-Install by adding the following line to Gemfile.  If you don't have a Gemfile, put it in the
+Install by adding the following line to Gemfile.  If you don't have a Gemfile, create one in the
 parent directory for the rubywarrior directory.
 
     gem 'rubywarrior', :git => 'git@github.com:jeremiahishere/ruby-warrior.git', :branch => 'master'
