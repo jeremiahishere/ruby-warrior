@@ -1,5 +1,5 @@
 #  ------------------
-# |@       >  a CS   |
+# |  s  @  >Ss       |
 #  ------------------
 
 description "This level was randomly generated."
@@ -11,8 +11,8 @@ ace_score 90
 size 18, 1
 stairs 8, 0
 
-warrior 0, 0, :east
+warrior 5, 0, :east
 
-unit :archer, 11, 0, :west
-unit :captive, 13, 0, :west
-unit :thick_sludge, 14, 0, :west
+unit :sludge, 2, 0, :east
+unit :thick_sludge, 9, 0, :west
+unit :sludge, 10, 0, :west

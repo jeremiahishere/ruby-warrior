@@ -1,5 +1,5 @@
 #  -----------
-# |  w >    @  |
+# |a  @   >   |
 #  -----------
 
 description "This level was randomly generated."
@@ -9,8 +9,8 @@ clue"No hint for you."
 time_bonus 11
 ace_score 55
 size 11, 1
-stairs 4, 0
+stairs 7, 0
 
-warrior 9, 0, :east
+warrior 3, 0, :east
 
-unit :wizard, 2, 0, :east
+unit :archer, 0, 0, :east

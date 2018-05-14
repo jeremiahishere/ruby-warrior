@@ -1,5 +1,5 @@
 #  ---------------------------
-# |S     >  SC  S   @      S  |
+# |      > w a  @     w s   C |
 #  ---------------------------
 
 description "This level was randomly generated."
@@ -11,10 +11,10 @@ ace_score 135
 size 27, 1
 stairs 6, 0
 
-warrior 17, 0, :east
+warrior 13, 0, :east
 
-unit :thick_sludge, 0, 0, :east
-unit :thick_sludge, 9, 0, :east
-unit :captive, 10, 0, :east
-unit :thick_sludge, 13, 0, :east
-unit :thick_sludge, 24, 0, :west
+unit :wizard, 8, 0, :east
+unit :archer, 10, 0, :east
+unit :wizard, 19, 0, :west
+unit :sludge, 21, 0, :west
+unit :captive, 25, 0, :west

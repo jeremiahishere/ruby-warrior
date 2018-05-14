@@ -1,5 +1,5 @@
 #  ----------------------------------------------------------------------
-# |C w      S w    S C         w       s  a S>    SSw   ss  @          a |
+# |C >     aS s     C         s C           Sw    w a   s  @  S a  w    S|
 #  ----------------------------------------------------------------------
 
 description "This level was randomly generated."
@@ -9,23 +9,23 @@ clue"No hint for you."
 time_bonus 70
 ace_score 350
 size 70, 1
-stairs 42, 0
+stairs 2, 0
 
-warrior 57, 0, :east
+warrior 56, 0, :east
 
 unit :captive, 0, 0, :east
-unit :wizard, 2, 0, :east
+unit :archer, 8, 0, :east
 unit :thick_sludge, 9, 0, :east
-unit :wizard, 11, 0, :east
-unit :thick_sludge, 16, 0, :east
-unit :captive, 18, 0, :east
-unit :wizard, 28, 0, :east
-unit :sludge, 36, 0, :east
-unit :archer, 39, 0, :east
+unit :sludge, 11, 0, :east
+unit :captive, 17, 0, :east
+unit :sludge, 27, 0, :east
+unit :captive, 29, 0, :east
 unit :thick_sludge, 41, 0, :east
-unit :thick_sludge, 47, 0, :east
-unit :thick_sludge, 48, 0, :east
-unit :wizard, 49, 0, :east
+unit :wizard, 42, 0, :east
+unit :wizard, 47, 0, :east
+unit :archer, 49, 0, :east
 unit :sludge, 53, 0, :east
-unit :sludge, 54, 0, :east
-unit :archer, 68, 0, :west
+unit :thick_sludge, 59, 0, :west
+unit :archer, 61, 0, :west
+unit :wizard, 64, 0, :west
+unit :thick_sludge, 69, 0, :west

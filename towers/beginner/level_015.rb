@@ -1,5 +1,5 @@
 #  ---------------
-# |@   >  C   w   |
+# |@   >s s       |
 #  ---------------
 
 description "This level was randomly generated."
@@ -13,5 +13,5 @@ stairs 4, 0
 
 warrior 0, 0, :east
 
-unit :captive, 7, 0, :west
-unit :wizard, 11, 0, :west
+unit :sludge, 5, 0, :west
+unit :sludge, 7, 0, :west

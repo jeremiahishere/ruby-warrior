@@ -1,3 +1,22 @@
+= Twist on Ruby Warrior
+
+Randomly generated levels have been added to the beginner level group.  Enemies and obstacles are
+randomly placed.  The player is nearly guaranteed to start in a safe area.
+
+Epic mode is forced unless you use practice mode.
+
+Run all levels with
+
+    bundle exec rubywarrior -s -t 0
+
+Run a single level with
+
+    bundle exec rubywarrior -l 45
+
+Install by adding the following line to your gemfile
+
+    gem 'rubywarrior', :git => 'git@github.com:jeremiahishere/ruby-warrior.git', :branch => 'master'
+
 = Ruby Warrior
 
 This is a game designed to teach the Ruby language and artificial intelligence in a fun, interactive way.

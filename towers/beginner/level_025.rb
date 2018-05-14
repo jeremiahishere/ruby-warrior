@@ -1,5 +1,5 @@
 #  -------------------------
-# |>asC      C   @     a    |
+# |         a  @   CCw  >  a|
 #  -------------------------
 
 description "This level was randomly generated."
@@ -9,12 +9,12 @@ clue"No hint for you."
 time_bonus 25
 ace_score 125
 size 25, 1
-stairs 0, 0
+stairs 21, 0
 
-warrior 14, 0, :east
+warrior 12, 0, :east
 
-unit :archer, 1, 0, :east
-unit :sludge, 2, 0, :east
-unit :captive, 3, 0, :east
-unit :captive, 10, 0, :east
-unit :archer, 20, 0, :west
+unit :archer, 9, 0, :east
+unit :captive, 16, 0, :west
+unit :captive, 17, 0, :west
+unit :wizard, 18, 0, :west
+unit :archer, 24, 0, :west
