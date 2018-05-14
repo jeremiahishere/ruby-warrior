@@ -5,6 +5,11 @@ randomly placed.  The player is nearly guaranteed to start in a safe area.
 
 Epic mode is forced unless you use practice mode.
 
+Install by adding the following line to Gemfile.  If you don't have a Gemfile, put it in the
+parent directory for the rubywarrior directory.
+
+    gem 'rubywarrior', :git => 'git@github.com:jeremiahishere/ruby-warrior.git', :branch => 'master'
+
 Run all levels with
 
     bundle exec rubywarrior -s -t 0
@@ -13,9 +18,6 @@ Run a single level with
 
     bundle exec rubywarrior -l 45
 
-Install by adding the following line to your gemfile
-
-    gem 'rubywarrior', :git => 'git@github.com:jeremiahishere/ruby-warrior.git', :branch => 'master'
 
 = Ruby Warrior
 
