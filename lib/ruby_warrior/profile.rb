@@ -100,7 +100,7 @@ module RubyWarrior
     end
     
     def level_after_epic?
-      Level.new(self, last_level_number+1).exists? if last_level_number
+      false # Level.new(self, last_level_number+1).exists? if last_level_number
     end
     
     def update_epic_score
